@@ -1,8 +1,6 @@
 import scrapy
 from difflib import SequenceMatcher
-from ..items\
-    import ActiveForeignPrincipalItem,\
-    ActiveForeignPrincipalLoader
+from ..items import ActiveForeignPrincipalItem,ActiveForeignPrincipalLoader
 
 from ..helpers.common import parse_date
 
